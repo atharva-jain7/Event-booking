@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('./assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #eb3c3c;
+}
+
+.header {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(165, 162, 162, 0.119);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ebdddd;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  color: #007bff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li:hover {
+  background-color: #e9ecef;
+}
+
+img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.event-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: calc(33.333% - 20px);
+  text-align: center;
+}
+
+.event-card h4 {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.event-card p {
+  color: #555;
+}
+
+.event-card button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  background-color: #218838;
+}
+.logout-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.logout-btn:hover {
+  opacity: 0.9;
+}
